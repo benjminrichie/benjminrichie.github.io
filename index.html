@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body>
+  <!--NAVBAR-->
+  <nav class="navbar-expand-lg bg-dark navbar-dark">
+    <div class="container">
+      <a href="#" class="navbar-brand pt-5">benjminrichie</a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse pb-5" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item me-5">
+            <a href="#learn" class="nav-link">Projects</a>
+          </li>
+          <li class="nav-item me-5">
+            <a href="#questions" class="nav-link">Profile</a>
+          </li>
+          <li class="nav-item me-5">
+            <a href="#instructors" class="nav-link">About Me</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--ME-->
+    <section class="bg-secondary text-light p-5 p-lg-0 text-center text-sm-start">
+      <div class="container">
+        <div class="d-sm-flex align-items-center justify-content-between">
+          <div>
+            <h1 class="text-warning">I am Benjamin Richard</h1>
+            <p>A dedicated web developer with a passion for creating dynamic and user-friendly websites. 
+              Proficient in front-end and back-end technologies, adept at problem-solving, and committed 
+              to delivering high-quality, efficient code. Eager to contribute innovative solutions and stay 
+              abreast of emerging industry trends.
+            </p>
+            <button id="myBtn" class="btn btn-light btn-lg">Hire Me</button>
+          </div>
+          <img class="img-fluid w-50 d-none d-sm-block" 
+          src="Ben.png">
+        </div>
+      </div>
+    </section>
+
+    <!--NEWS LETTER-->
+    <section class="bg-primary text-light p-5">
+      <div class="container">
+        <div class="d-md-flex justify-content-between align-items-center">
+          <h3 class="mb-3 mb-md-0">Sign up fo Newletters</h3>
+
+          <div class="input-group">
+            <input id="subscribe" 
+            type="text" 
+            class="form-control" 
+            placeholder="Enter Your Email" 
+            aria-label="Recipient's username" 
+            aria-describedby="button-addon2"
+            />
+            <button class="btn btn-dark btn-lg" 
+            type="button" 
+            id="button-addon2"
+            >
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--GRID-->
+    <section class="p-5">
+      <div class="container bg-dark">
+        <!-- <div class="row text-center bg-light border-5">
+          <div class="col-md">PROJECTS</div>
+          <div class="col-md">PROFILE</div>
+          <div class="col-md">ABOUT ME</div>
+        </div> -->
+        <div class="card-group">
+          <div class="card">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title">My Projects</h5>
+              <a href="../todos/recall.html">ToDo App</a>
+              <p class="card-text">Lorem ipsum</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          
+          <div class="card">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title">My Profile</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <!-- <img src="..." class="card-img-top" alt="..."> -->
+            <div class="card-body">
+              <h5 class="card-title">About Me</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet.</p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></>
+  </body>
+</html>
